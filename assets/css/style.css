@@ -1,0 +1,1384 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+   ::-moz-selection {
+      /* Code for Firefox */
+      color: #fff;
+      background: red;
+  }
+  
+  #menu-bar .navbar .container a img {
+      width: 150px;
+  }
+  
+  #menu-bar {
+      background-image: url(../../img/banner3_co.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .navbar {
+      padding-top: 20px;
+  }
+  
+  .nav-link {
+      color: #fff;
+      font-weight: 400;
+      font-size: 16px;
+  }
+  
+  .nav-link:hover {
+      color: #ed145b !important;
+  }
+  
+  .navbar-nav .nav-link {
+      padding-right: 1.3rem !important;
+      padding-left: 1.3rem !important;
+  }
+  
+  .navbar-toggler {
+      padding: 2px 1px;
+      font-size: 35px;
+      line-height: 1;
+      background-color: #ec145c;
+      border: none;
+      border-radius: .25rem;
+  }
+  
+  .navbar-toggler-icon {
+      width: 1.5em;
+      height: 1.2em;
+  }
+  
+  #menu-bar .navbar button:focus {
+      outline: none;
+  }
+  
+  #menu-bar .banner .container .banner-text,
+  .banner-img {
+      padding: 20% 0 18%;
+      text-align: center;
+  }
+  
+  #menu-bar .banner .container .banner-text h1 {
+      font-size: 40px;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+  }
+  
+  #menu-bar .banner .container .banner-text span {
+      width: 200px;
+      height: 3px;
+      margin: 20px auto;
+      display: block;
+      background: #ed145b;
+  }
+  
+  #menu-bar .banner .container .banner-text p {
+      font-size: 16px;
+      color: #fff;
+  }
+  
+  #menu-bar .banner .container .banner-text a button {
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      align-self: center;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      margin: 10px 0px;
+      background: #ed145b;
+      border-radius: 33px;
+      padding: 12px 36px;
+      border: none;
+      text-transform: uppercase;
+  }
+  
+  #template {
+      background-color: #f4f4f4;
+      margin-top: -32px;
+      padding: 70px 0 0;
+      clip-path: polygon(0 6%, 100% 0%, 100% 99%, 0% 100%);
+  }
+  
+  #template .container .template-content h2 {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 32px;
+  }
+  
+  #template .container .template-content p {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 14px;
+  }
+  
+  #template .container .template-content span {
+      width: 150px;
+      height: 2px;
+      margin: 15px 0;
+      display: block;
+      background: #ed145b;
+  }
+  
+  #template .container .template-content a {
+      color: #ed145b;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+  }
+  
+  #template .container .template-content .fa {
+      border: 1px solid #ed145b;
+      padding: 1px 4px 1px 6px;
+      border-radius: 50%;
+      margin-left: 5px;
+  }
+  
+  #services {
+      padding: 70px 0;
+  }
+  
+  #services .container .services-heading h1 {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+      text-align: center;
+      font-style: italic;
+  }
+  
+  #services .container .services-heading span {
+      width: 150px;
+      height: 2px;
+      margin: 35px auto;
+      display: block;
+      background: #ed145b;
+  }
+  
+  #services .container .services-heading p {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 65px;
+  }
+  
+  #services .container .services-content {
+      text-align: center;
+  }
+  
+  #services .container .services-content .services-img-1 {
+      width: 130px;
+      height: 130px;
+      border: 1px solid #ed145b;
+      border-radius: 50%;
+      padding: 50px 0;
+      margin: 0 auto;
+  }
+  
+  #services .container .services-content .services-img-2 {
+      width: 130px;
+      height: 130px;
+      border: 1px solid #ed145b;
+      border-radius: 50%;
+      padding: 40px 0;
+      margin: 0 auto;
+  }
+  
+  #services .container .services-content .services-img-3 {
+      width: 130px;
+      height: 130px;
+      border: 1px solid #ed145b;
+      border-radius: 50%;
+      padding: 37px 0;
+      margin: 0 auto;
+  }
+  
+  #services .container .services-content .services-img-4 {
+      width: 130px;
+      height: 130px;
+      border: 1px solid #ed145b;
+      border-radius: 50%;
+      padding: 40px 0;
+      margin: 0 auto;
+  }
+  
+  #services .container .services-content p {
+      color: #ed145b;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 15px 0;
+  }
+  
+  #comments {
+      background-image: url(../../img/3Mache_Template-Symu_co.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  #comments .comments-info {
+      padding: 120px 0px;
+      text-align: center;
+  }
+  
+  #comments .comments-info .carousel-inner .carousel-item p {
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 20px;
+      text-align: center;
+      padding: 20px 0;
+  }
+  
+  #comments .comments-info .carousel-inner .carousel-item .fa {
+      font-size: 30px;
+      color: #ed145b;
+  }
+  
+  .carousel-inner {
+      width: 80%;
+      margin: 0 auto;
+  }
+  /*++++++++++++++Pricing+++++++++++++++*/
+  
+  #prices {
+      padding: 70px 0;
+      background-color: #f4f4f4;
+  }
+  
+  #prices .container .prices-heading h1 {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+      text-align: center;
+      font-style: italic;
+  }
+  
+  #prices .container .prices-heading span {
+      width: 150px;
+      height: 2px;
+      margin: 35px auto;
+      display: block;
+      background: #ed145b;
+  }
+  
+  #prices .container .prices-heading p {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 65px;
+  }
+  
+  #prices .container .prices-content {
+      background-color: #fff;
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  
+  #prices .container .prices-content:hover .prices-info {
+      background: #ed145b;
+  }
+  
+  #prices .container .prices-content .prices-info {
+      background-color: #5a5a5a;
+      padding: 25px 0;
+      transition: .5s ease-in-out;
+  }
+  
+  #prices .container .prices-content .prices-info h1 {
+      font-size: 40px;
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      margin-bottom: 0;
+  }
+  
+  #prices .container .prices-content .prices-info h1 span {
+      font-size: 20px;
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+  }
+  
+  #prices .container .prices-content .prices-info p {
+      font-size: 14px;
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+  }
+  
+  #prices .container .prices-content .prices-btn {
+      margin-top: -25px;
+  }
+  
+  #prices .container .prices-content .prices-btn a button {
+      font-size: 16px;
+      line-height: 19px;
+      color: #5a5a5a;
+      align-self: center;
+      font-weight: 400;
+      background: #f4f4f4;
+      border-radius: 33px;
+      padding: 12px 46px;
+      border: none;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+  }
+  
+  #prices .container .prices-content .prices-details p {
+      font-size: 14px;
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      line-height: 25px;
+  }
+  
+  #prices .container .prices-content .prices-details a button {
+      font-size: 16px;
+      line-height: 19px;
+      color: #fff;
+      align-self: center;
+      font-weight: 400;
+      background: #ed145b;
+      border-radius: 33px;
+      padding: 12px 46px;
+      border: none;
+      text-transform: uppercase;
+  }
+  
+  #product-details {
+      padding: 70px 0;
+  }
+  
+  #product-details .container .product-details-content .product-details-img {
+      text-align: right;
+  }
+  
+  #product-details .container .product-details-content .product-details-text h3 {
+      font-size: 14px;
+      color: #ed145b;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding: 0 15px;
+  }
+  
+  #product-details .container .product-details-content {
+      margin-bottom: 30px;
+  }
+  
+  #product-details .container .product-details-content .col-12,
+  .col-md-3,
+  .col-md-9 {
+      padding-right: 5px;
+      padding-left: 5px;
+  }
+  
+  #product-details .container .product-details-content .product-details-text p {
+      font-size: 14px;
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      padding: 15px 15px;
+  }
+  
+  #became {
+      background-color: #ed145b;
+  }
+  
+  #became .container .became-content {
+      text-align: center;
+      padding: 45px 0 33px;
+  }
+  
+  #became .container .became-content h2 {
+      font-size: 32px;
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+  }
+  
+  #became .container .became-content a button {
+      font-size: 16px;
+      line-height: 19px;
+      color: #ed145b;
+      align-self: center;
+      font-weight: 400;
+      background: #fff;
+      border-radius: 33px;
+      padding: 12px 46px;
+      border: none;
+      text-transform: uppercase;
+  }
+  /*++++++Our latest++++++++++*/
+  
+  #latest {
+      padding: 70px 0;
+      background-color: #fff;
+  }
+  
+  #latest .container .latest-heading h1 {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+      text-align: center;
+      font-style: italic;
+  }
+  
+  #latest .container .latest-heading span {
+      width: 150px;
+      height: 2px;
+      margin: 35px auto;
+      display: block;
+      background: #ed145b;
+  }
+  
+  #latest .container .latest-heading p {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 65px;
+  }
+  
+  #latest .container .latest-content {
+      background-color: #f4f4f4;
+      margin-bottom: 30px;
+  }
+  
+  #latest .container .latest-content h3 {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 15px 10px 0;
+  }
+  
+  #latest .container .latest-content p {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      padding: 0 10px 15px;
+  }
+  
+  #latest .container .latest-content .latest-img {
+      position: relative;
+  }
+  
+  #latest .container .latest-content .latest-img .latest-overlay {
+      position: absolute;
+      width: 100%;
+      height: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ec145c;
+      opacity: .8;
+      text-align: center;
+      transition: .5s;
+      overflow: hidden;
+  }
+  
+  #latest .container .latest-content .latest-img .latest-overlay .fa {
+      font-size: 25px;
+      color: #fff;
+      margin-top: 31%;
+      cursor: pointer;
+  }
+  
+  #latest .container .latest-content .latest-img:hover .latest-overlay {
+      height: 100%;
+  }
+  
+  #mache .mache-content img {
+      width: 100%;
+      min-height: 350px;
+  }
+  
+  #mache .mache-content {
+      position: relative;
+  }
+  
+  #mache .mache-content .mache-text {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      text-align: center;
+  }
+  
+  #mache .mache-content .mache-text h1 {
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+      text-align: center;
+      font-style: italic;
+  }
+  
+  #mache .mache-content .mache-text span {
+      width: 150px;
+      height: 2px;
+      margin: 35px auto;
+      display: block;
+      background: #ed145b;
+  }
+  
+  #mache .mache-content .mache-text p {
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 25px;
+  }
+  
+  #mache .mache-content .mache-text a button {
+      font-size: 14px;
+      line-height: 19px;
+      color: #fff;
+      align-self: center;
+      font-weight: 400;
+      background: #ed145b;
+      border-radius: 33px;
+      padding: 10px 36px;
+      border: none;
+      text-transform: uppercase;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+  }
+  /*++++++++++++++++love+++++++++++++++*/
+  
+  #love {
+      padding: 60px 0;
+  }
+  
+  #love .container .love-content h2 {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 32px;
+  }
+  
+  #love .container .love-content p {
+      color: #5a5a5a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 14px;
+  }
+  
+  #love .container .love-content span {
+      width: 150px;
+      height: 2px;
+      margin: 15px 0;
+      display: block;
+      background: #ed145b;
+  }
+  
+  #love .container .love-content a button {
+      font-size: 12px;
+      line-height: 19px;
+      color: #fff;
+      align-self: center;
+      font-weight: 400;
+      background: #ed145b;
+      border-radius: 33px;
+      padding: 8px 30px;
+      border: none;
+      text-transform: uppercase;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+  }
+  
+  #love .container .love-text {
+      padding: 60px 0;
+  }
+  
+  #copyright {
+      background-color: #424242;
+  }
+  
+  #copyright .container .copyright-text p {
+      color: #fff;
+      padding: 25px 0 10px;
+      text-transform: uppercase;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+  }
+  
+  #copyright .container .copyright-text {
+      padding: 0 100px;
+  }
+  /*Extra large Device*/
+  
+  @media(min-width:1200px) {}
+  /*large Device*/
+  
+  @media(min-width:992px) and (max-width:1199px) {
+      #mache .mache-content img {
+          min-height: 400px;
+      }
+      #love .container .love-text {
+          padding: 40px 0;
+      }
+  }
+  /*Medium Device*/
+  
+  @media(min-width:768px) and (max-width:991px) {
+      .navbar-nav {
+          text-align: center;
+      }
+      #menu-bar .banner .container .banner-text,
+      .banner-img {
+          padding: 17% 0 15%;
+      }
+      #menu-bar .banner .container .banner-text h1 {
+          font-size: 30px;
+      }
+      #menu-bar .banner .container .banner-text span {
+          width: 200px;
+          margin: 20px auto;
+      }
+      #menu-bar .banner .container .banner-text p {
+          font-size: 14px;
+      }
+      #menu-bar .banner .container .banner-text a button {
+          font-size: 14px;
+          margin: 10px 0px;
+          padding: 10px 30px;
+      }
+      #template {
+          margin-top: -32px;
+          padding: 60px 0 0;
+          clip-path: polygon(0 6%, 100% 0%, 100% 99%, 0% 100%);
+      }
+      #template .container .template-content h2 {
+          font-size: 28px;
+      }
+      #template .container .template-content p {
+          font-size: 12px;
+      }
+      #template .container .template-content span {
+          width: 140px;
+          height: 2px;
+          margin: 15px 0;
+      }
+      #template .container .template-content a {
+          font-size: 12px;
+      }
+      #template .container .template-content .fa {
+          padding: 1px 4px 1px 6px;
+      }
+      #services {
+          padding: 60px 0;
+      }
+      #services .container .services-heading h1 {
+          font-size: 28px;
+      }
+      #services .container .services-heading span {
+          width: 110px;
+          height: 2px;
+          margin: 30px auto;
+      }
+      #services .container .services-heading p {
+          font-size: 13px;
+          padding-bottom: 55px;
+      }
+      #services .container .services-content p {
+          font-size: 13px;
+          padding: 14px 0;
+      }
+      #comments .comments-info {
+          padding: 110px 0px;
+      }
+      #comments .comments-info .carousel-inner .carousel-item p {
+          font-size: 17px;
+          padding: 20px 0;
+      }
+      #comments .comments-info .carousel-inner .carousel-item .fa {
+          font-size: 25px;
+      }
+      #prices {
+          padding: 60px 0 40px;
+          background-color: #f4f4f4;
+      }
+      #prices .container .prices-heading h1 {
+          font-size: 28px;
+      }
+      #prices .container .prices-heading span {
+          width: 130px;
+          height: 2px;
+          margin: 30px auto;
+      }
+      #prices .container .prices-heading p {
+          font-size: 13px;
+          padding-bottom: 55px;
+      }
+      #prices .container .prices-content .prices-info {
+          padding: 20px 0;
+      }
+      #prices .container .prices-content .prices-info h1 {
+          font-size: 30px;
+      }
+      #prices .container .prices-content .prices-info h1 span {
+          font-size: 16px;
+      }
+      #prices .container .prices-content .prices-info p {
+          font-size: 12px;
+      }
+      #prices .container .prices-content .prices-btn {
+          margin-top: -20px;
+      }
+      #prices .container .prices-content .prices-btn a button {
+          font-size: 14px;
+          padding: 10px 32px;
+          margin-bottom: 20px;
+      }
+      #prices .container .prices-content .prices-details p {
+          font-size: 12px;
+          line-height: 20px;
+      }
+      #prices .container .prices-content .prices-details a button {
+          font-size: 12px;
+          line-height: 15px;
+          padding: 10px 32px;
+      }
+      #product-details {
+          padding: 60px 0 30px;
+      }
+      #product-details .container .product-details-content .product-details-text h3 {
+          font-size: 12px;
+          padding: 0 13px;
+      }
+      #product-details .container .product-details-content {
+          margin-bottom: 30px;
+      }
+      #product-details .container .product-details-content .product-details-text p {
+          font-size: 12px;
+          padding: 12px 12px;
+      }
+      #product-details .container .product-details-content .product-details-text p br {
+          display: none;
+      }
+      #product-details .container .product-details-content .product-details-img {
+          text-align: right;
+      }
+      #became .container .became-content {
+          padding: 35px 0 27px;
+      }
+      #became .container .became-content h2 {
+          padding-top: 6px;
+          font-size: 22px;
+      }
+      #became .container .became-content a button {
+          font-size: 12px;
+          padding: 10px 32px;
+      }
+      #latest {
+          padding: 60px 0;
+          background-color: #fff;
+      }
+      #latest .container .latest-heading h1 {
+          font-size: 28px;
+      }
+      #latest .container .latest-heading span {
+          width: 130px;
+          height: 2px;
+          margin: 30px auto;
+      }
+      #latest .container .latest-heading p {
+          font-size: 13px;
+          padding-bottom: 40px;
+      }
+      #mache .mache-content img {
+          min-height: 350px;
+      }
+      #mache .mache-content .mache-text {
+          top: 40px;
+      }
+      #mache .mache-content .mache-text h1 {
+          font-size: 28px;
+      }
+      #mache .mache-content .mache-text span {
+          width: 130px;
+          height: 2px;
+          margin: 30px auto;
+      }
+      #mache .mache-content .mache-text p {
+          font-size: 12px;
+          padding-bottom: 20px;
+      }
+      #mache .mache-content .mache-text a button {
+          font-size: 12px;
+          padding: 10px 36px;
+      }
+      #love {
+          padding: 50px 0;
+      }
+      #love .container .love-content h2 {
+          font-size: 22px;
+      }
+      #love .container .love-content p {
+          font-size: 13px;
+      }
+      #love .container .love-content span {
+          width: 130px;
+          height: 2px;
+          margin: 15px 0;
+      }
+      #love .container .love-content a button {
+          font-size: 11px;
+          padding: 7px 25px;
+      }
+      #love .container .love-text {
+          padding: 20px 0;
+      }
+      #copyright .container .copyright-text p {
+          padding: 25px 0 10px;
+          font-size: 12px;
+      }
+      #copyright .container .copyright-text {
+          padding: 0 60px;
+      }
+  }
+  /* Small Device*/
+  
+  @media(min-width:576px) and (max-width:767px) {
+      .navbar-nav {
+          text-align: center;
+      }
+      #menu-bar .banner .container .banner-text,
+      .banner-img {
+          padding: 15% 0 14%;
+      }
+      #menu-bar .banner .container .banner-text h1 {
+          font-size: 25px;
+      }
+      #menu-bar .banner .container .banner-text span {
+          width: 150px;
+          margin: 15px auto;
+      }
+      #menu-bar .banner .container .banner-text p {
+          font-size: 12px;
+      }
+      #menu-bar .banner .container .banner-text a button {
+          font-size: 12px;
+          margin: 10px 0px;
+          padding: 10px 30px;
+      }
+      #template {
+          margin-top: -25px;
+          padding: 50px 0 0;
+          clip-path: polygon(0 6%, 100% 0%, 100% 99%, 0% 100%);
+      }
+      #template .container .template-content h2 {
+          font-size: 22px;
+      }
+      #template .container .template-content p {
+          font-size: 10px;
+          margin-bottom: 0;
+      }
+      #template .container .template-content span {
+          width: 110px;
+          height: 2px;
+          margin: 10px 0;
+      }
+      #template .container .template-content a {
+          font-size: 10px;
+      }
+      #template .container .template-content .fa {
+          padding: 1px 4px 1px 6px;
+      }
+      #services {
+          padding: 50px 0;
+      }
+      #services .container .services-heading h1 {
+          font-size: 20px;
+      }
+      #services .container .services-heading span {
+          width: 80px;
+          height: 2px;
+          margin: 20px auto;
+      }
+      #services .container .services-heading p {
+          font-size: 11px;
+          padding-bottom: 55px;
+      }
+      #services .container .services-content p {
+          font-size: 11px;
+          padding: 12px 0;
+      }
+      #comments .comments-info {
+          padding: 90px 0px;
+      }
+      #comments .comments-info .carousel-inner .carousel-item p {
+          font-size: 15px;
+          padding: 15px 0;
+      }
+      #comments .comments-info .carousel-inner .carousel-item p br {
+          display: none;
+      }
+      #comments .comments-info .carousel-inner .carousel-item .fa {
+          font-size: 20px;
+      }
+      .carousel-inner {
+          width: 70%;
+          margin: 0 auto;
+      }
+      #prices {
+          padding: 40px 0;
+          background-color: #f4f4f4;
+      }
+      #prices .container .prices-heading h1 {
+          font-size: 22px;
+      }
+      #prices .container .prices-heading span {
+          width: 110px;
+          height: 2px;
+          margin: 20px auto;
+      }
+      #prices .container .prices-heading p {
+          font-size: 10px;
+          padding-bottom: 40px;
+      }
+      #prices .container .prices-content {
+          margin-bottom: 30px;
+      }
+      #prices .container .prices-content .prices-info {
+          padding: 20px 0;
+      }
+      #prices .container .prices-content .prices-info h1 {
+          font-size: 22px;
+      }
+      #prices .container .prices-content .prices-info h1 span {
+          font-size: 12px;
+      }
+      #prices .container .prices-content .prices-info p {
+          font-size: 10px;
+      }
+      #prices .container .prices-content .prices-btn {
+          margin-top: -20px;
+      }
+      #prices .container .prices-content .prices-btn a button {
+          font-size: 12px;
+          padding: 8px 22px;
+          margin-bottom: 15px;
+      }
+      #prices .container .prices-content .prices-details p {
+          font-size: 10px;
+          line-height: 20px;
+      }
+      #prices .container .prices-content .prices-details a button {
+          font-size: 10px;
+          line-height: 15px;
+          padding: 8px 22px;
+      }
+      #product-details {
+          padding: 40px 0;
+      }
+      #product-details .container .product-details-content .product-details-text h3 {
+          font-size: 12px;
+          padding: 15px 13px 0;
+          text-align: center;
+      }
+      #product-details .container .product-details-content {
+          margin-bottom: 30px;
+          padding: 0 30px;
+      }
+      #product-details .container .product-details-content .product-details-text p {
+          font-size: 12px;
+          padding: 12px 12px;
+          text-align: center;
+      }
+      #product-details .container .product-details-content .product-details-text p br {
+          display: none;
+      }
+      #product-details .container .product-details-content .product-details-img {
+          text-align: center;
+      }
+      #became .container .became-content {
+          padding: 30px 0 23px;
+      }
+      #became .container .became-content h2 {
+          padding-top: 6px;
+          font-size: 18px;
+          margin-bottom: 0;
+      }
+      #became .container .became-content a button {
+          font-size: 10px;
+          padding: 10px 32px;
+      }
+      #latest {
+          padding: 40px 0;
+          background-color: #fff;
+      }
+      #latest .container .latest-heading h1 {
+          font-size: 22px;
+      }
+      #latest .container .latest-heading span {
+          width: 110px;
+          height: 2px;
+          margin: 20px auto;
+      }
+      #latest .container .latest-heading p {
+          font-size: 12px;
+          padding-bottom: 30px;
+      }
+      #latest .container .latest-heading p br {
+          display: none;
+      }
+      #latest .container .latest-content h3 {
+          font-size: 13px;
+          padding: 15px 10px 0;
+      }
+      #latest .container .latest-content p {
+          font-size: 9px;
+          padding: 0 10px 15px;
+      }
+      #latest .container .latest-content p br {
+          display: none;
+      }
+      #mache .mache-content img {
+          min-height: 300px;
+      }
+      #mache .mache-content .mache-text {
+          top: 40px;
+      }
+      #mache .mache-content .mache-text h1 {
+          font-size: 22px;
+      }
+      #mache .mache-content .mache-text span {
+          width: 110px;
+          height: 2px;
+          margin: 20px auto;
+      }
+      #mache .mache-content .mache-text p {
+          font-size: 10px;
+          padding-bottom: 20px;
+      }
+      #mache .mache-content .mache-text a button {
+          font-size: 10px;
+          padding: 8px 28px;
+      }
+      #love {
+          padding: 40px 0;
+      }
+      #love .container .love-content h2 {
+          font-size: 18px;
+      }
+      #love .container .love-content p {
+          font-size: 11px;
+      }
+      #love .container .love-content span {
+          width: 100px;
+          height: 2px;
+          margin: 10px 0;
+      }
+      #love .container .love-content a button {
+          font-size: 10px;
+          padding: 8px 25px;
+      }
+      #love .container .love-text {
+          padding: 10px 0;
+          padding-left: 10px;
+      }
+      #copyright .container .copyright-text p {
+          padding: 25px 0 10px;
+          font-size: 10px;
+      }
+      #copyright .container .copyright-text {
+          padding: 0 40px;
+      }
+  }
+  /*Extra Small Device*/
+  
+  @media(max-width:575px) {
+      .navbar-nav {
+          text-align: center;
+      }
+      #menu-bar .banner .container .banner-text,
+      .banner-img {
+          padding: 13% 0 12%;
+      }
+      #menu-bar .banner .container .banner-text h1 {
+          font-size: 20px;
+      }
+      #menu-bar .banner .container .banner-text span {
+          width: 110px;
+          margin: 10px auto;
+      }
+      #menu-bar .banner .container .banner-text p {
+          font-size: 10px;
+      }
+      #menu-bar .banner .container .banner-text p br {
+          display: none;
+      }
+      #menu-bar .banner .container .banner-text a button {
+          font-size: 10px;
+          margin: 10px 0px;
+          padding: 10px 30px;
+      }
+      #template {
+          margin-top: -25px;
+          padding: 50px 0 0;
+          clip-path: polygon(0 4%, 100% 0%, 100% 99%, 0% 100%);
+      }
+      #template .container .template-content {
+          margin-bottom: 20px;
+      }
+      #template .container .template-content h2 {
+          font-size: 18px;
+      }
+      #template .container .template-content p {
+          font-size: 9px;
+          margin-bottom: 0;
+      }
+      #template .container .template-content span {
+          width: 100px;
+          height: 2px;
+          margin: 10px 0;
+      }
+      #template .container .template-content a {
+          font-size: 9px;
+      }
+      #template .container .template-content .fa {
+          padding: 1px 4px 1px 6px;
+      }
+      #services {
+          padding: 30px 0;
+      }
+      #services .container .services-heading h1 {
+          font-size: 16px;
+      }
+      #services .container .services-heading span {
+          width: 60px;
+          height: 2px;
+          margin: 20px auto;
+      }
+      #services .container .services-heading p {
+          font-size: 10px;
+          padding-bottom: 40px;
+      }
+      #services .container .services-content p {
+          font-size: 10px;
+          padding: 10px 0;
+      }
+      #comments .comments-info {
+          padding: 60px 0px;
+      }
+      #comments .comments-info .carousel-inner .carousel-item p {
+          font-size: 12px;
+          padding: 8px 0;
+      }
+      #comments .comments-info .carousel-inner .carousel-item p br {
+          display: none;
+      }
+      #comments .comments-info .carousel-inner .carousel-item .fa {
+          font-size: 16px;
+      }
+      .carousel-inner {
+          width: 60%;
+          margin: 0 auto;
+      }
+      #prices {
+          padding: 40px 0;
+          background-color: #f4f4f4;
+      }
+      #prices .container .prices-heading h1 {
+          font-size: 18px;
+      }
+      #prices .container .prices-heading span {
+          width: 80px;
+          height: 2px;
+          margin: 20px auto;
+      }
+      #prices .container .prices-heading p {
+          font-size: 9px;
+          padding-bottom: 30px;
+      }
+      #prices .container .prices-content {
+          margin-bottom: 30px;
+      }
+      #prices .container .prices-content .prices-info {
+          padding: 20px 0;
+      }
+      #prices .container .prices-content .prices-info h1 {
+          font-size: 18px;
+      }
+      #prices .container .prices-content .prices-info h1 span {
+          font-size: 10px;
+      }
+      #prices .container .prices-content .prices-info p {
+          font-size: 8px;
+      }
+      #prices .container .prices-content .prices-btn {
+          margin-top: -20px;
+      }
+      #prices .container .prices-content .prices-btn a button {
+          font-size: 8px;
+          padding: 6px 18px;
+          margin-bottom: 12px;
+      }
+      #prices .container .prices-content .prices-details p {
+          font-size: 8px;
+          line-height: 15px;
+      }
+      #prices .container .prices-content .prices-details a button {
+          font-size: 8px;
+          line-height: 15px;
+          padding: 6px 18px;
+      }
+      #product-details {
+          padding: 30px 0;
+      }
+      #product-details .container .product-details-content .product-details-text h3 {
+          font-size: 10px;
+          padding: 15px 13px 0;
+          text-align: center;
+      }
+      #product-details .container .product-details-content {
+          margin-bottom: 30px;
+          padding: 0 30px;
+      }
+      #product-details .container .product-details-content .product-details-text p {
+          font-size: 10px;
+          padding: 12px 12px;
+          text-align: center;
+      }
+      #product-details .container .product-details-content .product-details-text p br {
+          display: none;
+      }
+      #product-details .container .product-details-content .product-details-img {
+          text-align: center;
+      }
+      #became .container .became-content {
+          padding: 25px 0 20px;
+      }
+      #became .container .became-content h2 {
+          padding-top: 6px;
+          font-size: 18px;
+          margin-bottom: 0;
+      }
+      #became .container .became-content a button {
+          font-size: 10px;
+          padding: 8px 32px;
+      }
+      #latest {
+          padding: 40px 0;
+          background-color: #fff;
+      }
+      #latest .container .latest-heading h1 {
+          font-size: 22px;
+      }
+      #latest .container .latest-heading span {
+          width: 110px;
+          height: 2px;
+          margin: 20px auto;
+      }
+      #latest .container .latest-heading p {
+          font-size: 12px;
+          padding-bottom: 30px;
+      }
+      #latest .container .latest-heading p br {
+          display: none;
+      }
+      #latest .container .latest-content {
+          text-align: center;
+      }
+      #latest .container .latest-content h3 {
+          font-size: 12px;
+          padding: 15px 10px 0;
+      }
+      #latest .container .latest-content p {
+          font-size: 8px;
+          padding: 0 10px 15px;
+      }
+      #latest .container .latest-content p br {
+          display: none;
+      }
+      #mache .mache-content img {
+          min-height: 230px;
+      }
+      #mache .mache-content .mache-text {
+          top: 30px;
+      }
+      #mache .mache-content .mache-text h1 {
+          font-size: 18px;
+      }
+      #mache .mache-content .mache-text span {
+          width: 80px;
+          height: 2px;
+          margin: 10px auto;
+      }
+      #mache .mache-content .mache-text p {
+          font-size: 9px;
+          padding-bottom: 10px;
+      }
+      #mache .mache-content .mache-text p br {
+          display: none;
+      }
+      #mache .mache-content .mache-text a button {
+          font-size: 8px;
+          padding: 6px 18px;
+      }
+      #love {
+          padding: 20px 0;
+      }
+      #love .container .love-content h2 {
+          font-size: 16px;
+      }
+      #love .container .love-content p {
+          font-size: 10px;
+      }
+      #love .container .love-content span {
+          width: 80px;
+          height: 2px;
+          margin: 10px 0;
+      }
+      #love .container .love-content a button {
+          font-size: 8px;
+          padding: 7px 20px;
+      }
+      #love .container .love-text {
+          padding: 10px 0;
+          padding-left: 10px;
+      }
+      #copyright .container .copyright-text p {
+          padding: 10px 0 0px;
+          font-size: 8px;
+          line-height: 16px;
+      }
+      #copyright .container .copyright-text {
+          padding: 0 20px;
+      }
+  }
